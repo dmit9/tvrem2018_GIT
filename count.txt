@@ -1,4 +1,54 @@
-5.255.253.17i	07:07:46 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
-141.8.142.147p	07:11:14 1		/pe4ka.html	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) 
-37.9.118.29i	07:34:54 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots) 
-178.154.200.56i	07:35:30 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+93.158.166.12i	07:29:35 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+66.102.9.9i	07:29:47 1		/	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon 
+87.250.224.68i	07:36:34 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+141.8.142.147p	07:37:23 1		/pe4ka.html	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) 
+209.85.238.87i	07:43:38 1		/	AdsBot-Google (+http://www.google.com/adsbot.html) 
+209.85.238.85i	07:43:39 1		/	AdsBot-Google (+http://www.google.com/adsbot.html) 
+209.85.238.87i	07:43:50 1		/	AdsBot-Google (+http://www.google.com/adsbot.html) 
+209.85.238.85i	07:49:37 1		/	AdsBot-Google (+http://www.google.com/adsbot.html) 
+82.145.208.227i	08:15:09 1	harkov.jsprav.ru	/?_openstat=ZGlyZWN0LnlhbmRleC5ydTs1MzQ5Nzk2OzY2NzUzOTg5OTtoYXJrb3YuanNwcmF2LnJ1Omd1YXJhbnRlZQ&yclid=6483583651794925139	Opera/9.80 (Android; Opera Mini/37.1.2254/119.132; U; ru) Presto/2.12.423 Version/12.16 
+13.57.233.99i	08:26:56 1		/	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 
+66.102.9.6i	08:30:11 1		/?gclid=CjwKCAjwvNXeBRAjEiwAjqYhFnToBIuEV4Lv7MpKHHOxCMX3LQZDKiyeMc6vdZxPpApQ3f7JPdaxQBoCHQIQAvD_BwE	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon 
+213.180.203.3i	08:30:32 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+46.133.133.0i	08:31:55 1	www.google.com.ua	/	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36 
+85.90.209.54i	08:36:01 1		/?_openstat=ZGlyZWN0LnlhbmRleC5ydTs1MzQ5Nzk2OzY2NzUzOTg5OTt5YW5kZXgucnU6bmE&yclid=5328352098010024841	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+46.133.198.5i	08:46:00 1	www.google.com.ua	/	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36 
+46.133.198.5i	08:51:29 1	www.google.com.ua	/	Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
+95.108.181.80i	08:57:26 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+195.39.233.38i	09:11:12 1		/?gclid=CjwKCAjw39reBRBJEiwAO1m0OfqoPZ6dMvHIVDneSP73fovm0aTppVlZF2bKd1vaNQqUErh6F1JvsRoCis4QAvD_BwE	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
+178.92.162.55i	09:14:02 1	www.google.com.ua	/?gclid=EAIaIQobChMIgLDquZS13gIVwZIYCh2vKQW2EAAYASABEgL7uvD_BwE	Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2130.80 
+178.92.162.55k	09:14:37 1	tvremont.kh.ua	/kontakt.html	Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2130.80 
+66.249.65.182i	09:41:30 1		/	Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) 
+141.8.142.147i	09:46:58 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+95.108.181.53i	09:47:02 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+46.133.40.63i	10:00:02 1	www.google.com.ua	/	Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36 
+178.150.138.166i	10:00:56 1	www.google.com.ua	/?gclid=CjwKCAjw6-_eBRBXEiwA-5zHaZ0_r9Glcx_pIzx3Ppla7KUMsYpsD8gnEWwYgmLUQ9kRu4xvvDZlhRoCCHYQAvD_BwE	Mozilla/5.0 (Linux; Android 6.0.1; SM-A500H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36 
+163.172.4.153i	10:16:54 1	tvremont.kh.ua	/	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36 
+159.224.46.86i	10:22:02 1		/?gclid=EAIaIQobChMI2pGr3rvT3QIVK7HtCh2ungu-EAAYASAAEgKIBPD_BwE	Mozilla/5.0 (iPhone; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 
+178.133.70.196i	10:23:27 1		/?gclid=CjwKCAjw6-_eBRBXEiwA-5zHaUd-Q4_Wxn1esA1rxOUMrw3h6VpUlnTykzkVSz9wB8juO_aGA8OnMBoCcVQQAvD_BwE	Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.64 Mobile Safari/537.36 
+185.160.60.200i	10:44:53 1	www.google.com.ua	/?gclid=EAIaIQobChMIreDe3qi13gIVDMqyCh0xWgtZEAAYAiAAEgLo4PD_BwE	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+93.77.120.77i	10:52:39 1	www.google.com	/?gclid=EAIaIQobChMIvLf_qaq13gIVWaWaCh02Agk3EAAYAiAAEgKQePD_BwE	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+93.77.120.77k	10:53:11 1	tvremont.kh.ua	/kontakt.html	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+93.77.120.77o	10:53:17 1	tvremont.kh.ua	/otziv.html	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+93.77.120.77i	10:54:30 1	www.google.com	/?gclid=EAIaIQobChMIvLf_qaq13gIVWaWaCh02Agk3EAAYAiAAEgKQePD_BwE	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 
+87.250.224.121i	11:04:00 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+141.8.183.36i	11:16:38 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+141.0.12.27i	11:22:55 1		/	Mozilla/5.0 (Linux; Android 6.0; A8 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 OPR/47.3.2249.130976 
+159.224.46.86i	11:55:02 1		/?gclid=EAIaIQobChMI2pGr3rvT3QIVK7HtCh2ungu-EAAYASAAEgKIBPD_BwE	Mozilla/5.0 (iPhone; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1 
+141.8.183.25i	12:05:34 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+46.133.70.238i	12:08:53 1		/	Mozilla/5.0 (Android 7.1.2; Mobile; rv:50.0) Gecko/50.0 Firefox/50.0 
+54.38.215.85i	12:25:49 1	www.google.com.ua	/?gclid=CjwKCAjw6-_eBRBXEiwA-5zHaaw525ZjNJu-G_tWTbzrWGEfVFK6EtzyRXh_La4E501V6gUSnNHSgBoCE78QAvD_BwE	Mozilla/5.0 (Linux; Android 8.1.0; DRA-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36 
+141.8.142.147m	12:28:08 1		/monitor.html	Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots) 
+5.255.253.17i	12:38:24 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+209.85.238.85i	12:48:00 1		/	Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html) 
+82.145.208.93i	12:50:17 1	www.googleadservices.com	/?gclid=EAIaIQobChMIr6Kk5sS13gIV0-R3Ch3pygwuEAAYASAAEgK5oPD_BwE	Opera/9.80 (Android; Opera Mini/20.0.2254/119.132; U; ru) Presto/2.12.423 Version/12.16 
+77.122.15.148i	12:55:17 1		/index.html	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.3.4000 
+178.93.148.159i	13:25:10 1	www.google.com.ua	/?gclid=EAIaIQobChMIgp2U2ci13gIVRgiRCh0FzgnUEAAYASAAEgKcv_D_BwE	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
+141.8.183.36i	13:25:32 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+178.93.148.159p	13:26:20 1	tvremont.kh.ua	/pe4ka.html	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
+178.93.148.159p	13:26:26 1	tvremont.kh.ua	/pe4ka.html	Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
+213.180.203.21i	13:41:19 1		/	Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots yabs01) 
+109.86.165.107i	13:52:26 1		/?gclid=CjwKCAjwq57cBRBYEiwAdpx0vSH_6lefQR2VuLQyEeoXSnjFe2z3wuwCT9QSPZW8tKPIxVnxn-DA0hoCmYwQAvD_BwE	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
+66.102.9.3i	14:00:10 1		/	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon 
+46.211.68.59i	14:00:26 1		/?gclid=CjwKCAjwkYDbBRB6EiwAR0T_-jnhe1ErC8ikd9FTZX_JnEa5qOliXfnATjncmgls1vRHNFEAnMEYzBoCewMQAvD_BwE	Mozilla/5.0 (Linux; Android 4.4.2; D101 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Safari/537.36 
+95.133.9.130i	14:01:51 1		/	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.52 
