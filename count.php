@@ -44,59 +44,32 @@ if (06 < date("H")) {
             }
         }
         unset($i);
-
-
         $searchEngines = array(
-
             'google.' => array('q', 'prev'),
-
             'yandex.' => array('text', 'query')
-
         );
         $ref = parse_url(urldecode($referer));
-
         $site = $ref['host'];
-
         $text = $ref['query'];
-
         parse_str($text, $arr);
-
         foreach ($searchEngines as $key => $value) {
-
             if (substr_count($site, $key)) {
-
                 foreach ($arr as $k => $v) {
-
                     if (is_array($value)) {
-
                         if (in_array("$k", $value)) {
-
                             $words = $v;
-
                             break;
-
                         }
-
                     } elseif ("$k" == $value) {
-
                         $words = $v;
-
                         break;
-
                     } else {
-
                         $words = "0";
-
                         break;
-
                     }
-
                 }
-
                 break;
-
             }
-
         }
 
         $fd = fopen("count.txt", "a");
@@ -135,4 +108,4 @@ if (06 == date("H")) {
     fclose($fb);
 }
 
-
+?>
