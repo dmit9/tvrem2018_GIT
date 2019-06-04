@@ -4,7 +4,7 @@ require("phpMQTT.php");
 $brouser = $_SERVER['HTTP_USER_AGENT'];
 $ref = $_SERVER['HTTP_REFERER'];
 $url = $_SERVER['REQUEST_URI'];
-$date = date("d.m.y");
+$date = date("Y.m.d");
 $time = date("H:i:s");
 $words = "1";
 $referer = isset($_SERVER['HTTP_REFERER']) ? strtolower($_SERVER['HTTP_REFERER']) : '???????? ????...';
@@ -32,7 +32,7 @@ function getRealIpAddr() {
 
 $IP = getRealIpAddr();
 
-if (06 < date("H")) {
+if ((06 < date("H"))&& !preg_match("/bot|bots|adsbot|AdsBot|metrika|crawl|crawler|slurp|spider|link|checker|script|robot|discovery|preview/i", $_SERVER['HTTP_USER_AGENT'])){
     if (date("H") < 24) {
         foreach ($bots as &$i) {
             if ($i == $IP) {
@@ -113,6 +113,7 @@ if (06 < date("H")) {
         $mqtt = new phpMQTT($server, $port, $client_id);
 
         if ($mqtt->connect(true,NULL,$username,$password)) {
+		   $mqtt->publish("date",$date , 0);
            $mqtt->publish("time",$time , 0);
            $mqtt->publish("IP",$IP  , 0);
            $mqtt->publish("page","oNas"  , 0);
@@ -135,4 +136,4 @@ if (06 == date("H")) {
     fclose($fb);
 }
 
-
+?>

@@ -4,7 +4,7 @@ require("phpMQTT.php");
 $brouser = $_SERVER['HTTP_USER_AGENT'];
 $ref = $_SERVER['HTTP_REFERER'];
 $url = $_SERVER['REQUEST_URI'];
-$date = date("d.m.y");
+$date = date("Y.m.d");
 $time = date("H:i:s");
 $words = "1";
 $referer = isset($_SERVER['HTTP_REFERER']) ? strtolower($_SERVER['HTTP_REFERER']) : '�������� ����...';
@@ -32,7 +32,7 @@ function getRealIpAddr() {
 
 $IP = getRealIpAddr();
 
-if (06 < date("H")) {
+if ((06 < date("H"))&& !preg_match("/bot|bots|adsbot|AdsBot-Google|YandexBot|yandexmetrika|crawl|crawler|slurp|spider|link|checker|script|robot|discovery|preview/i", $_SERVER['HTTP_USER_AGENT'])){
     if (date("H") < 24) {
         foreach ($bots as &$i) {
             if ($i == $IP) {
@@ -44,6 +44,7 @@ if (06 < date("H")) {
             }
         }
         unset($i);
+
         $searchEngines = array(
             'google.' => array('q', 'prev'),
             'yandex.' => array('text', 'query')
@@ -60,7 +61,7 @@ if (06 < date("H")) {
                             $words = $v;
                             break;
                         }
-                    } elseif ("$k" == $value) {
+                    } elseif ("$k" == $value) { 
                         $words = $v;
                         break;
                     } else {
@@ -71,8 +72,7 @@ if (06 < date("H")) {
                 break;
             }
         }
-
-        $fd = fopen("count.txt", "a");
+		$fd = fopen("count.txt", "a");
         fwrite($fd, $IP);
         fwrite($fd, "i	$time	$site	$url	$brouser  \r\n");
         fclose($fd);
@@ -86,6 +86,7 @@ if (06 < date("H")) {
         $mqtt = new phpMQTT($server, $port, $client_id);
 
         if ($mqtt->connect(true,NULL,$username,$password)) {
+		   $mqtt->publish("date",$date , 0);
            $mqtt->publish("time",$time , 0);
            $mqtt->publish("IP",$IP  , 0);
            $mqtt->publish("page","index"  , 0);

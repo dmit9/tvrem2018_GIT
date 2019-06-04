@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="no" http-equiv="imagetoolbar">
+<link href="m_styles.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+<h2>  Kfwkwnn mmmw</h2>
+
+  <?php
+    include ('count.php');
+  ?>
+<form action="" method="post">
+  <span>РРјСЏ : </span><br>
+  <input type="text" id="name"><br>
+  <span>РљРѕРјРјРµРЅС‚Р°СЂРёР№</span><br>
+  <textarea id="comment" cols="30" rows="10"></textarea><br>
+  <button id="button">РћС‚РїСЂР°РІРёС‚СЊ</button>
+</form>
+
+<script>
+  var button = document.getElementById('button'),
+  xmlhttp = new XMLHttpRequest();
+  button.addEventListener('click', function() {
+       var name = document.getElementById('name').value.replace(/<[^>]+>/g,''),
+       comment = document.getElementById('comment').value.replace(/<[^>]+>/g,'');
+    if(name === '' || comment === '') {
+    	alert('Заполните все поля!');
+    	return false;
+    }
+    xmlhttp.open('POST', 'add_comment.php', true);
+    xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlhttp.send("name=" + encodeURIComponent(name) + "&comment=" + encodeURIComponent(comment));
+ 
+  });
+</script>
+<h2>  K   mmmw</h2>
+</body>
+</html>

@@ -1,152 +1,254 @@
 @charset "UTF-8";
-body {
-	background-color: #fafafa;
-	margin: 0;
-	padding: 0;
-	color: #000;
-	font-family:  Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	font-style: normal
+* {
+    margin: 0;
+    padding: 0;
 }
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    height: 100%;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal
+}
+
 /* ~~ Element/tag selectors ~~ */
 ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
-	padding: 0;
-	margin: 0;
-}
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
-	padding-right: 15px;
-	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
-}
-header h1 {
-	font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	font-size: 220%;
-	color: #fff;
-	height: 20%;
-	width: 100%;
-}
-header h2 {
-	font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	font-size: 150%;
-	height: 20%;
-	width: 90%;
-}
-header h3 {
-	font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	color: #fff;
-	height: 20%;
-	width: 100%;
-}
-.green_text {
-	color: #188B00;
-	font-weight: bold;
-}
-.orange_text {
-	color: #FF00FF;
-}
-.blue_text {
-	color:#0000FF;
-}
-.red_text {
-	color: #FF0000;
-	font-weight: bold;
-}
-.content section h2  {
-	margin-top: 15px;
-	margin-bottom: 5px;
-	color: #000000;
-	font-size: 170%;
-}
-.content section h3      {
-	margin-top: 0px;
-	margin-bottom: 5px;
-	color: #188B00;
-}
-.content section h3 a {
-	font-size: 160%;
-	color: #090;
+    padding: 0;
+    margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0; /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+    padding-right: 15px;
+    padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+header h1 {
+    font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 220%;
+    color: #fff;
+    height: 20%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    height: 20%;
+    width: 90%;
+    margin-top: 15px;
+}
+
+header h3 {
+    font-family: paytone-one, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #fff;
+    height: 20%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.green_text {
+    color: #188B00;
+    font-weight: bold;
+}
+
+.orange_text {
+    color: #FF00FF;
+}
+
+.blue_text {
+    color: #0000FF;
+}
+
+.red_text {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.content section h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 170%;
+}
+
+.content section h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #188B00;
+}
+
+.content section h3 a {
+    font-size: 160%;
+    color: #090;
+}
 
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-	border: none;
+    border: none;
 }
+
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
-	color: #42413C;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+    color: #007bff;
+    text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
+
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+    color: #6E6C64;
+    text-decoration: underline;
 }
+
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
-	text-decoration: none;
+    text-decoration: none;
 }
+
 /* ~~ This fixed width container surrounds all other blocks ~~ */
 .container {
-	width: 950px;
-	background-color: #FFFFFF;
-	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
-	border: 2px solid #0066FF;
-	background-repeat: repeat-y;
-	height: auto;
+    width: 950px;
+    background-color: #FFFFFF;
+    margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+    border: 2px solid #0066FF;
+    background-repeat: repeat-y;
+    height: auto;
 }
+
 .box {
-	border:1px solid #E6E6E6;color:#000000;
-	;border-left:5px solid #C8DFF9;
+    border: 1px solid #E6E6E6;
+    color: #000000;;
+    border-left: 5px solid #C8DFF9;
 }
+
 /* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
 header {
-	background-color: #3399FF;
-	height: 20%;
-	width: 100%;
-	margin-bottom: 1px;
-	margin-top: 1px;
-	padding-bottom: 1px;
-	padding-top: 1px;
+    background-color: #3399FF;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
 }
+
 #logo {
-	height: 158px;
-	width: 170px;
-	margin-top: 15px;
-	margin-left: 15px;
-	position: absolute;
-	z-index: 1;
+    height: 158px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 1;
 }
+
+td, th {
+    width: 30px;
+}
+/* стиль для формы ввода отзывов */
+form {
+    display: block;
+    position: relative;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 20px;
+    border: 3px solid #556677;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+}
+
+#button, #name, #comment {
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px auto;
+    border: 3px solid #556677;
+    border-radius: 10px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+}
+
+.form-txt {
+    padding: 5px;
+    padding-left: 10%;
+}
+
+/* стиль для невалидных полей */
+textarea:invalid, input:invalid {
+    background-color: #f0f0f0;
+}
+#comment:valid, #name:valid {
+    border: 3px solid #02a01d;
+}
+textarea:focus :invalid, input:focus:invalid {
+    outline: none;
+}
+
+/* Это стиль для сообщений об ошибке */
+.message {
+    width: 70%;
+    padding: 0;
+    padding-left: 10%;
+
+    font-size: 100%;
+    color: #ec8888;
+    border-radius: 0 0 5px 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.message.active {
+    padding: 0.3em;
+}
+
 .top-nav {
-	font-size: 90%;
-	font-weight: bold;
-	color: #FFC;
-	background-color: #090;
-	text-align: right;
-	padding-top: 5px;
-	padding-right: 20px;
-	padding-bottom: 5px;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #060;
-	background-image: url(images/background.png);
-	background-repeat: repeat-x;
+    font-size: 90%;
+    font-weight: bold;
+    color: #FFC;
+    background-color: #090;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #060;
+    background-image: url(images/background.png);
+    background-repeat: repeat-x;
 }
-.top-nav a:link  ,.top-nav a:visited{
-	color: #FFC;
-	text-decoration: none;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
+
+.top-nav a:link, .top-nav a:visited {
+    color: #FFC;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
+
 .top-nav a:hover, .top-nav a:active, .top-nav a:focus {
-	color: #FFC;
-	background-color: #060;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
+    color: #FFC;
+    background-color: #060;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
-/* ~~ These are the columns for the layout. ~~ 
+
+/* ~~ These are the columns for the layout. ~~
 
 1) Padding is only placed on the top and/or bottom of the block elements. The elements within these blocks have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the block itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the block element and place a second block element within it with no width and the padding necessary for your design.
 
@@ -158,200 +260,333 @@ header {
 
 */
 .sidebar1 {
-	float: left;
-	width: 180px;
-	padding-bottom: 10px;
+    float: left;
+    width: 180px;
+    padding-bottom: 10px;
 }
+
 aside {
-	font-size: 90%;
+    font-size: 90%;
 }
 
 /* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
-nav ul{
-	list-style: none; /* this removes the list marker */
-	border-top: 1px solid #666; /* this creates the space between the navigation on the content below */
-	font-size: 90%;
+nav ul {
+    list-style: none; /* this removes the list marker */
+    border-top: 1px solid #666; /* this creates the space between the navigation on the content below */
+    font-size: 90%;
 }
+
 nav li {
-	border-bottom: 1px solid #666; /* this creates the button separation */
+    border-bottom: 1px solid #666; /* this creates the button separation */
 }
-nav li a:link , nav li a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
-	padding: 5px 5px 5px 15px;
-	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
-	width: 158px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
-	text-decoration: none;
-	background-color: #0066FF;
-	color: #FFC;
-	border-color: #0C0 #060 #060 #0C0;
-	border-width: 1px;
-	border-style: solid;
+
+nav li a:link, nav li a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+    padding: 5px 5px 5px 15px;
+    display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+    width: 158px; /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+    text-decoration: none;
+    background-color: #0066FF;
+    color: #FFC;
+    border-color: #0C0 #060 #060 #0C0;
+    border-width: 1px;
+    border-style: solid;
 }
-nav li a:hover , nav li a:active ,nav li a:focus{ /* this changes the background and text color for both mouse and keyboard navigators */
-	background-color: #5599FF;
-	color: #FFF;
+
+nav li a:hover, nav li a:active, nav li a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+    background-color: #5599FF;
+    color: #FFF;
 }
+
 .content {
-	width: 770px;
-	float: right;
-	padding-bottom: 10px;
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 0px;
+    width: 770px;
+    float: right;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
 .content ul, .content ol {
-	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+    padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
 }
 
 /* ~~ The footer ~~ */
 footer {
-	padding: 10px 0;
-	background-color: #3399FF;
-	position: relative;/* this gives IE6 hasLayout to properly clear */
-	clear: both;
-	font-size: 90%;
-	color: #FFC;
-	background-image: url(images/background.png);
-	background-repeat: repeat-x;
-	text-align: center;
+    padding: 10px 0;
+    background-color: #3399FF;
+    position: relative; /* this gives IE6 hasLayout to properly clear */
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    font-size: 90%;
+    color: #FFC;
+    background-repeat: repeat-x;
+    text-align: center;
 }
 
 /*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
 header, section, footer, aside, article, figure {
-	display: block;
+    display: block;
 }
+
 .green {
-	color: #090;
+    color: #090;
 }
+
 .flt_rgt {
-	float: right;
-	margin-left: 10px;
+    float: right;
+    margin-left: 10px;
 }
+
 .flt_lft {
-	float: left;
-	margin-right: 10px;
+    float: left;
+    margin-right: 10px;
 }
+
 .ctr {
-	text-align: center;
+    text-align: center;
 }
+
 .content #Accordion1 .ui-helper-reset.ui-state-default {
-	background-image: url(images/background.png);
-	color: #FFC;
-	background-position: 0% 0%;
-	background-repeat: repeat-x;
-	font-size: 120%;
-	background-color: #090;
-	border-bottom: 3px solid #060;
-	margin-bottom: 0px;
-	margin-top: 0px;
+    /*	background-image: url(images/background.png);  */
+    color: #FFC;
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+    font-size: 120%;
+    background-color: #090;
+    border-bottom: 3px solid #060;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
 .content #Accordion1 .ui-helper-reset.ui-state-default a {
-	color: #FFC;
+    color: #FFC;
 }
+
 .content #Accordion1 .ui-helper-reset.ui-state-default a:hover {
-	color: #0F0;
+    color: #0F0;
 }
+
 .content #Accordion1 .ui-helper-reset.ui-state-default.ui-state-active {
-	color: #FFC;
-	background-color: #090;
-	background-image:url(images/background2.png);
-	background-position: 0% 0%;
-	background-repeat: repeat-x;
+    color: #FFC;
+    background-color: #090;
+    /*	background-image: url(images/background.png);  */
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
 }
+
 .content #Accordion1 .ui-helper-reset.ui-state-default.ui-state-active a {
-	color: #FFF;
-	text-shadow: 0px 0px 15px #000;
+    color: #FFF;
+    text-shadow: 0px 0px 15px #000;
 }
 
-@media screen and (max-width:480px){
-header h1 {
-	font-size: 120%;
-	padding-left: 10px;
-}
-header h2 {
-	font-size: 100%;
-	padding-left: 10px;
-}
-header h3 {
-	font-size: 80%;
-	padding-left: 10px;
-}
-.container {
-	width: 100%;
-	background-image: none;
-}
-#logo {
-	display: none;
-}
-header {
-	/*background-image: url(images/banner-phone.jpg);*/
-/*	height: 30%; */
-	background-color: #3399FF;
-}
-.top-nav {
-	text-align: center;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-}
-.sidebar1 {
-	width: 100%;
-	float: none;
-}
-nav li a:link , nav li a:visited {
-	width: 100%;
-	text-align: center;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-}
-aside {
-	display: none;
-}
-.content {
-	float: none;
-	width: 100%;
-	padding-top: 0px;
-}
-.content h1 {
-	font-size: 160%;
-	padding-left: 10px;
-}
-.content section h2 {
-	font-size: 100%;
-	padding-left: 10px;
-}
-.content section h3 {
-	font-size: 100%;
-	padding-left: 10px;
-}
-.content section p {
-	padding-left: 10px;
-}
-footer {
-	font-size: 80%;
+
+
+/*	Bootstrap 4  tooltip ------------------------------------------------------------------------ */
+
+.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"] {
+    padding: 0.4rem 0;
 }
 
-.content #Accordion1 li {
-}
+.bs-tooltip-top .arrow, .bs-tooltip-auto[x-placement^="top"] .arrow {
+    bottom: 0;
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
-#logo {
-	display: none;
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    top: 0;
+    border-width: 0.4rem 0.4rem 0;
+    border-top-color: #000;
 }
-header {
-	/*background-image: url(images/banner-tablet.jpg);*/
-	height: 20%;
-	background-color: #3399FF;
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 0.25rem 0.5rem;
+    color: #f6ffd1;
+    text-align: center;
+    background-color: #45cef3;
+    border-radius: 0.55rem;
 }
-.container {
-	width: 750px;
+/*	Bootstrap 4  tooltip ------------------------------------------------------------------------ */
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 120%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    header h2 {
+        font-size: 100%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    header h3 {
+        font-size: 80%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    .container {
+        width: 100%;
+        background-image: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    header {
+        /*background-image: url(images/banner-phone.jpg);*/
+        /*	height: 30%; */
+        background-color: #3399FF;
+    }
+    .container section {
+        text-align: center;
+        margin: 3px;
+    }
+    .top-nav {
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+
+    .sidebar1 {
+        width: 100%;
+        float: none;
+    }
+
+    nav li a:link, nav li a:visited {
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+
+    .li {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .content {
+        float: none;
+        width: 100%;
+        padding-top: 0px;
+        margin: 3px;
+    }
+
+    .content h1 {
+        font-size: 160%;
+        padding-left: 10px;
+    }
+
+    .content section h2 {
+        font-size: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 3px;
+        margin-bottom: 10px;
+    }
+
+    .content section h3 {
+        font-size: 100%;
+        padding-left: 5px;
+    }
+
+    .content section p {
+        padding-left: 10px;
+    }
+    .box {
+        margin: 3px 0;
+    }
+    footer {
+        font-size: 80%;
+    }
+
+    .content #Accordion1 li {
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        margin-top: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    form {
+        width: 95%;
+    }
 }
-.content {
-	width: 570px;
-}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #logo {
+        display: none;
+    }
+
+    header {
+        /*background-image: url(images/banner-tablet.jpg);*/
+        height: 20%;
+        background-color: #3399FF;
+    }
+
+    nav li a:link, nav li a:visited {
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+
+    .container {
+        width: 95%;
+        overflow: hidden;
+    }
+
+    .content section {
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .box {
+        padding: 3px;
+        overflow: hidden;
+    }
+
+    .content {
+        float: none;
+        width: 100%;
+        padding-top: 0px;
+        margin: 5px auto 0;
+    }
+
+    .content h1 {
+        font-size: 160%;
+        padding-left: 10px;
+    }
+    .content h2 {
+        font-size: 140%;
+        padding-left: 10px;
+    }
+    .content section h2 {
+        font-size: 140%;
+        padding-left: 10px;
+    }
+
+    .content section h3 {
+        font-size: 100%;
+        padding-left: 10px;
+    }
+
+    .content section p {
+        padding-left: 10px;
+    }
+    form {
+        width: 90%;
+    }
 }

@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow:
-Host: www.tvremont.kh.ua
-Sitemap: https://tvremont.kh.ua/sitemap.xml

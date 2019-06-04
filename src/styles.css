@@ -1,0 +1,38 @@
+body{ 
+	background:#fafafa;
+	color:#FFF; 
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-style: normal
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+form {
+	margin:5px auto;
+	width:70%;
+	font-size:14px;
+	border-radius:20px;
+    border:3px solid #556677;
+}
+
+#button,#name,#comment{
+  display:block;
+  overflow:hidden;
+  padding:5px;
+  margin:5px auto;
+  border:3px solid #556677;
+  border-radius:10px;
+  width:80%;
+}
+
+.form-txt {
+
+	padding:5px;
+	padding-left: 10%;
+}
